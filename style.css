@@ -1,0 +1,356 @@
+body {
+    overflow-x: hidden;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(Assets/background.jpg);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #FF6343;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.scroll {
+    width: 100%;
+    position: fixed;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -3%;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    color: #FF6343;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.cafe-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cafe-pic {
+    border-radius: 20px;
+    width: 90%;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.about-par {
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.absolute-container {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-video, .tea-video {
+    width: 90%;
+    opacity: 0.4;
+    border-radius: 20px;
+}
+
+.coffee-heading, .tea-heading {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-first-row, .coffee-second-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.brew-container, .cold-brew-container {
+    width: 30%;
+}
+
+.brew-item, .cold-brew-item, .espresso-item {
+    font-weight: bolder;
+    margin-bottom: -2%;
+}
+
+.brew-price, .cold-brew-price, .espresso-price {
+    font-weight: bolder;
+    float: right;
+    margin-top: -2%;
+}
+
+.espresso-heading-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -2%;
+}
+
+.espresso-description, .brew-description, .cold-brew-description {
+    text-align: start;
+}
+
+.espresso-container, .espresso-second-container {
+    width: 30%;
+    margin-top: 1%;
+}
+
+.coffee-third-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.coffee-note-container {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-note {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.tea-first-row, .tea-second-row, .tea-third-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.black-tea-container, .green-tea-container, .white-tea-container, .herbal-tea-container, .oolong-tea-container, .oolong-second-container {
+    width: 30%;
+}
+
+.black-tea-price, .green-tea-price, .white-tea-price, .herbal-tea-price, .oolong-tea-price {
+    float: right;
+    margin-top: -2%;
+    font-weight: bolder;
+}
+
+.black-tea-item, .green-tea-item{
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: -2%;
+}
+
+.black-tea-header, .green-tea-header {
+    text-transform: uppercase;
+}
+
+.white-tea-item, .herbal-tea-item, .oolong-tea-item {
+    margin-top: -2%;
+    margin-bottom: -2%;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.oolong-header {
+    display: flex;
+    justify-content: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.product-par {
+    font-size: 18px;
+    text-align: center;
+}
+
+.food-heading {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.pic-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bagel-pic {
+    width: 90%;
+    border-radius: 20px;
+    opacity: 0.4;
+}
+
+.food-first-row, .food-second-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pastry-container, .sandwiches-container, .patisserie-container, .bagels-container {
+    width: 30%;
+}
+
+.pastry-price, .sandwiches-price, .patisserie-price, .bagels-price {
+    float: right;
+    font-weight: bolder;
+    margin-top: -2%;
+}
+
+.pastry-item, .sandwiches-item, .patisserie-item, .bagels-item {
+    margin-top: -2%;
+    margin-bottom: -2%;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.patisserie-heading {
+    text-transform: uppercase;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.contact-us-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.map-hours-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-hours-container {
+    align-self: center;
+    margin-left: -20%;
+    margin-top: -1%;
+}
+
+.days {
+    font-weight: bolder;
+}
+
+.tel-mail-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+}
+.float-item {
+    float: left;
+}
+
+@media all and (max-width:800px) {
+    .absolute-container {
+        position: static;
+    }
+
+    .brew-container, .cold-brew-container, .espresso-container, .espresso-second-container, .black-tea-container, .green-tea-container, .white-tea-container, .herbal-tea-container, .oolong-tea-container, .oolong-second-container, .pastry-container, .sandwiches-container, .bagels-container, .patisserie-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brew-heading {
+        margin-bottom: auto;
+    }
+
+    .brew-item, .cold-brew-item, .espresso-item, .white-tea-item, .black-tea-item, .green-tea-item, .white-tea-item, .herbal-tea-item, .oolong-tea-item, .pastry-item, .sandwiches-item, .bagels-item, .patisserie-item {
+        margin-bottom: 1%;
+    }
+
+    .brew-price, .cold-brew-price, .espresso-price, .black-tea-price, .green-tea-price, .white-tea-price, .herbal-tea-price, .oolong-tea-price, .pastry-price, .sandwiches-price, .bagels-price, .patisserie-price {
+        margin-top: 1%;
+    }
+
+    .brew-description, .cold-brew-description, .espresso-description, .white-tea-description, .herbal-tea-description, .oolong-tea-description, .pastry-description, .sandwiches-description, .bagels-description, .patisserie-description {
+        margin-top: -1%;
+    }
+
+    .adress-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map-hours-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-hours-container {
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
+@media all and (max-width:500px) {
+    .map {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+
+
+
+
