@@ -4,7 +4,6 @@ Welcome to Soulmate ☕! Discover your perfect tea or coffee companion at our co
 
 ## Table of Contents
 - [About the Project](#about-the-project)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Menu](#menu)
 - [Contacts](#contacts)
@@ -12,11 +11,6 @@ Welcome to Soulmate ☕! Discover your perfect tea or coffee companion at our co
 
 ## About the Project
 Soulmate ☕ is a delightful cafe offering a wide selection of expertly brewed teas and coffees. Whether you're a tea aficionado or a coffee connoisseur, we have something special waiting for you. Our cozy atmosphere and delicious treats make every visit memorable.
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Soulmate-Cafe.git
 
 ## Usage
 1. Open index.html in your web browser.
