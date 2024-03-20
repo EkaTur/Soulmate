@@ -2,6 +2,10 @@
 
 Welcome to Soulmate ☕! Discover your perfect tea or coffee companion at our cozy cafe.
 
+## Live Demo
+
+You can check out the live version of this website [here](https://soulmate-cafe.netlify.app/).
+
 ## Table of Contents
 - [About the Project](#about-the-project)
 - [Usage](#usage)
